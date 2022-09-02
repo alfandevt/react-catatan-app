@@ -1,0 +1,60 @@
+.note-item {
+  padding: 2rem;
+  padding-bottom: 8rem;
+  width: 30rem;
+  background-color: #ffe4c4;
+  position: relative;
+}
+
+.note-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  overflow-wrap: normal;
+  color: #7c4708;
+}
+
+.note-created-at {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 0.6rem;
+  margin-bottom: 1.4rem;
+  color: #bd6d0c;
+}
+
+.note-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  color: #3c2303;
+}
+
+.btn-group {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  background-color: aliceblue;
+}
+
+.btn-group > button {
+  width: 50%;
+  border: 0;
+  color: #fefefe;
+}
+
+.note-btn-delete {
+  background-color: #db1503;
+}
+
+.note-btn-move {
+  background-color: #d57500;
+}
+
+@media (max-width: 830px) {
+  .note-item {
+    width: 100%;
+  }
+}

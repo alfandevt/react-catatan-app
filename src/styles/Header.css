@@ -1,0 +1,44 @@
+.note-app__header {
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cfa270;
+  color: #eed3b4;
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+}
+
+.note-app__brand {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.note-search {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 1rem;
+  background-color: transparent;
+  color: #fefefe;
+  border: 0.2rem solid #eed3b4;
+  letter-spacing: 0.1rem;
+}
+
+.note-search::placeholder {
+  color: #eed3b4;
+}
+
+@media (max-width: 830px) {
+  .note-app__header {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+
+    height: auto;
+  }
+  .note-app__brand {
+    font-size: 3rem;
+  }
+}

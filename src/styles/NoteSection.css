@@ -1,0 +1,24 @@
+.note-section {
+  padding: 4rem 2rem;
+}
+
+.note-section-heading-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
+  color: #7c4708;
+}
+
+.note-no-item {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 830px) {
+  .note-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

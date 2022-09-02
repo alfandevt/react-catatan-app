@@ -1,0 +1,70 @@
+.note-form {
+  background-color: #fcd15b;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+}
+
+.note-form-title,
+.note-input,
+.note-counter,
+.note-submit {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.note-form-title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+  color: #7c4708;
+}
+
+.note-counter {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: end;
+  margin-top: 0.4rem;
+  margin-bottom: 1.6rem;
+  color: #7c4708;
+}
+
+.note-input {
+  padding: 1rem 0.8rem;
+  border: 0;
+}
+
+textarea.note-input {
+  height: 10rem;
+  margin-bottom: 1.6rem;
+}
+
+.note-input:focus {
+  outline: 0.2rem solid #d0af7d;
+}
+
+.note-submit {
+  padding: 1.2rem;
+  background-color: #ffe4c4;
+  border: 0.2rem solid #d0af7d;
+  color: #7c4708;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.note-submit:active {
+  background-color: #dba35f;
+}
+
+@media (max-width: 830px) {
+  .note-form-title,
+  .note-input,
+  .note-counter,
+  .note-submit {
+    width: 100%;
+  }
+}
