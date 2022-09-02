@@ -41,6 +41,7 @@
 textarea.note-input {
   height: 10rem;
   margin-bottom: 1.6rem;
+  resize: vertical;
 }
 
 .note-input:focus {
