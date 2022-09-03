@@ -47,7 +47,7 @@ class NoteForm extends React.Component {
     event.preventDefault();
     const { title, body } = this.state;
     this.props.addNote({ title, body });
-    this.setState({ title: "", body: "" });
+    this.setState({ title: "", body: "", charLeft: this._charLimit });
   }
 
   charLeftCounter(text) {
